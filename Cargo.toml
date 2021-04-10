@@ -1,0 +1,17 @@
+[package]
+name = "rusty-stm32"
+version = "0.1.0"
+authors = ["jazminferreiro"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.cortex-m]
+version = "0.5.6"
+
+[dependencies.cortex-m-rt]
+version = "0.5.3"
+
+[dependencies.panic-semihosting]
+version = "0.5.6"
+
